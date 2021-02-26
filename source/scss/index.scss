@@ -23,13 +23,13 @@ img {
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../../fonts/Gilroy-free/Gilroy-Light.otf') format('opentype');
+    src: url('../fonts/Gilroy-free/gilroy-light.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gilroy';
     font-weight: 900;
-    src: url('../../fonts/Gilroy-free/Gilroy-ExtraBold.otf') format('opentype');
+    src: url('../fonts/Gilroy-free/gilroy-extrabold.otf') format('opentype');
 }
 
 h1, .subtitle {
@@ -352,7 +352,7 @@ main {
 //      Main-section
 //========================
 .main-section {
-    background: url('../../img/bg/electrician-bg.svg') no-repeat;
+    background: url('../img/bg/electrician-bg.svg') no-repeat;
     background-size: cover;
     
     
@@ -596,7 +596,7 @@ main {
     }
 
     &__content {
-        background: url('../../img/bg/two-bedroom-x2--plan.png') no-repeat;
+        background: url('../img/bg/two-bedroom-x2--plan.png') no-repeat;
         background-position: top 255% left 100%;
         flex-grow: 1;
         display: flex;
@@ -855,7 +855,7 @@ main {
     &__text {
         padding: 9% 15% 0 11%;
         margin-right: -7%;
-        background: url('../../img/bg/two-bedroom-x2--plan2.png') no-repeat;
+        background: url('../img/bg/two-bedroom-x2--plan2.png') no-repeat;
         background-position: top 147px left 282px;
 
         h3 {
@@ -983,14 +983,14 @@ main {
 
                 button.slider__left {
                     border: none;
-                    background: url('../../img/icons/arrow-left.png') no-repeat;
+                    background: url('../img/icons/arrow-left.png') no-repeat;
                     min-height: 28px;
                     min-width: 16px;
                 }
 
                 button.slider__right {
                     border: none;
-                    background: url('../../img/icons/arrow-right.png') no-repeat;
+                    background: url('../img/icons/arrow-right.png') no-repeat;
                     min-height: 28px;
                     min-width: 16px;
                     margin-left: 59px;
@@ -1064,7 +1064,7 @@ main {
 //====================
 
 .responses {
-    background: url('../../img/bg/worker-with-perforator-bg.svg') no-repeat;
+    background: url('../img/bg/worker-with-perforator-bg.svg') no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -1090,7 +1090,7 @@ main {
     }
 
     &__slider {
-        background: url('../../img/bg/quotes-bg.png') no-repeat;
+        background: url('../img/bg/quotes-bg.png') no-repeat;
         background-position: top 0 left 100%;
         padding: 50px 36px 0;
         height: 340px;
@@ -1129,23 +1129,23 @@ main {
             padding: 0;
 
             &:first-child {
-                background: url('../../img/icons/slider-arrow-left.png') no-repeat;
+                background: url('../img/icons/slider-arrow-left.png') no-repeat;
                 background-size: cover;
                 margin-right: 41px;
 
                 &:hover {
-                    background: url('../../img/icons/slider-arrow-left-active.png') no-repeat;
+                    background: url('../img/icons/slider-arrow-left-active.png') no-repeat;
                     background-size: cover;
                 }
             }
 
             &:last-child {
-                background: url('../../img/icons/slider-arrow-right.png') no-repeat;
+                background: url('../img/icons/slider-arrow-right.png') no-repeat;
                 background-size: cover;
                 margin-left: 41px;
 
                 &:hover {
-                    background: url('../../img/icons/slider-arrow-right-active.png') no-repeat;
+                    background: url('../img/icons/slider-arrow-right-active.png') no-repeat;
                     background-size: cover;
                 }
             }
