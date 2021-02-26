@@ -343,7 +343,7 @@ main {
 }
 
 .main-section {
-  background: url("../img/bg/electrician-bg.svg") no-repeat;
+  background: url("../img/bg/electrician-bg.jpg") no-repeat;
   background-size: cover;
 }
 .main-section__body {
@@ -903,7 +903,7 @@ main {
 }
 
 .responses {
-  background: url("../img/bg/worker-with-perforator-bg.svg") no-repeat;
+  background: url("../img/bg/worker-with-perforator-bg.jpg") no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
